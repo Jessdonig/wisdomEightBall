@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "team-watermelon-capstone",
+    "slug": "team-watermelon-capstone",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
