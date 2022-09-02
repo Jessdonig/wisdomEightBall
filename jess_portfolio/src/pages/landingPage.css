@@ -1,0 +1,85 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.intro-title-text {
+  display: flex;
+  flex-wrap: wrap;
+  color: #574A5F;
+  font-size: 36px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 120px;
+}
+
+.title-text {
+  display: flex;
+  flex-wrap: wrap;
+  color: #E4E0D3;
+  font-size: 36px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 120px;
+}
+
+
+
+.info-text {
+  display: flex;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  line-height: 140%;
+  color: #E4E0D3;
+  font-size: 24px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  /* position: relative; */
+  top: 0px;
+  height: 600px;
+  width: 100vw;
+  background-image: url(../../public/jessPhoto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
+} 
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+  top: 650px;
+  height: 600px;
+  width: 100vw;
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+background: linear-gradient(180deg, rgba(158, 149, 153, 0.93) -42.32%, rgba(114, 104, 111, 0.94) 41.22%, #72686F 100%);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-containter {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  max-height: 50vh;
+  margin-right: 80px;
+}
+
+
+  

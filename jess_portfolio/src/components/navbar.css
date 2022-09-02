@@ -1,0 +1,33 @@
+.navbarContainer {
+  display: flex;
+  /* position: sticky; */
+  background: #72686f;
+  align-items: flex-end;
+  justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+}
+
+/* nav {
+  display: flex;
+} */
+
+.navText {
+  background-color: #72686f; ;
+  
+}
+
+/* .nav-item {
+  align-items: flex-end;
+} */
+a {
+ 
+  color: #9E9599;
+  font-weight: 600px;
+  font-size: 20px;
+  margin: 24px;
+  float: right;
+  text-decoration: none;
+}
