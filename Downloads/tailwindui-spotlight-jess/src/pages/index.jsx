@@ -1,3 +1,4 @@
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -223,12 +224,13 @@ function Resume() {
 
 function Photos() {
   const [images, setImages] = useState();
+  const API = process.env.Airtable_api_key
 
   
   useEffect(()=> {
     async function fetchData() {
       // You can await here
-      const response = await fetch("https://api.airtable.com/v0/appL3rwg6YCG5cs32/Artwork?api_key=keyZFUqNi8p7IB7OF");
+      const response = await fetch(`https://api.airtable.com/v0/appL3rwg6YCG5cs32/Artwork?api_key=${API}`);
       const formattedResponse = await response.json()
       console.log("this is formattedresponse", formattedResponse)
       setImages(formattedResponse)

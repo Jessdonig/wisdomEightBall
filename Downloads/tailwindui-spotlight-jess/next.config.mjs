@@ -19,15 +19,4 @@ const withMDX = nextMDX({
   },
 })
 
-module.exports = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**.v5.airtableusercontent.com',
-      },
-    ],
-  },
-}
-
 export default withMDX(nextConfig)
